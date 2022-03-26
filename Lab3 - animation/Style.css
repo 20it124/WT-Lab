@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    flex: 1;
+    text-align: center;
+    line-height: 2;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 8px 12px;
+    border-bottom: dotted 4px #fff;
+}
+.video-container video{
+    position: absolute;
+    top:0;left:0;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    object-fit: cover;
+  }
+@keyframes animation {
+    100% {
+        transform: translateX(1400px);
+    }
+    0% {
+        transform: translateX(0px);
+    }
+   
+}
